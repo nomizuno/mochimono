@@ -1,1 +1,69 @@
+
 @import "bootstrap";
+
+
+//共通
+ul, li {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+//header
+.header{
+    border-bottom:0.1px solid #000;
+    color: gray;
+    border-color: gray;
+}
+
+.logo{
+    margin:1.5em auto;
+    display:block;
+    font-weight: bold;
+    font-size: 50px;
+    // font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+//category-tabs
+.headerNav {
+  margin:30px 0;
+
+  .container{
+
+
+    .table-ul {
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+
+  }
+  .table-ul li {
+    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
+    font-size:40px;
+    font-weight: bold;
+    margin: 0 200px;
+
+
+
+  }
+
+  }
+}
+
+.active {
+  border-bottom: solid 6px rgba(104,210,42,0.81);
+  border-color:#30AFF2;
+  a{
+    color:#30AFF2;
+   }
+}
