@@ -38,21 +38,19 @@ a{
   .container{
 
 
-    .table-ul {
+    ul{
     display: table;
     table-layout: fixed;
     text-align: center;
     width: 100%;
 
   }
-  .table-ul li {
+ ul li {
     display: inline-block;
     display: table-cell;
     vertical-align: middle;
     font-size:40px;
     font-weight: bold;
-    margin: 0 200px;
-
 
 
   }
